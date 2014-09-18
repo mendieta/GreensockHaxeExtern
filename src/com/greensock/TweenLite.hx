@@ -15,7 +15,6 @@ extern class TweenLite extends Animation
 	public static var defaultEase:Ease;
 	public static var defaultOverwrite:String;
 	public static var selector:Dynamic;
-	public static var ticker:Dynamic;
 	
 	public var target:Dynamic;
 	
