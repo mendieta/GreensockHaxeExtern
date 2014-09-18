@@ -1,0 +1,15 @@
+{
+  "name": "GreensockHaxeExtern",
+  "url" :
+      "https://github.com/mendieta/GreensockHaxeExtern",
+  "license": "MIT",
+  "tags": ["js", "greensock"],
+  "description":
+      "This library is useless in the same way on every platform",
+  "version": "1.0.0",
+  "releasenote":
+      "Initial release, everything is working correctly",
+  "contributors": ["Mendieta"],
+  "dependencies": {
+  }
+}
