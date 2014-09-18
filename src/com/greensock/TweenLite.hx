@@ -12,24 +12,86 @@ import com.greensock.core.Animation;
 extern class TweenLite extends Animation
 {
 	
-	public static var defaultEase:Ease;
-	public static var defaultOverwrite:String;
-	public static var selector:Dynamic;
+	/**
+	 * 
+	 * @param	target
+	 * @param	duration
+	 * @param	vars
+	 */
+	public function new(target:Dynamic,duration:Float,vars:Dynamic):Void;
+  
+    /**
+     * 
+     * @param	delay
+     * @param	_callback
+     * @param	?params
+     * @param	?scope
+     * @param	?useFrames
+     * @return
+     */
+    static public function delayedCall(delay:Float, _callback:Dynamic, ?params:Array<Dynamic>, ?scope:Dynamic, ?useFrames:Bool):TweenLite;
 	
-	public var target:Dynamic;
+	/**
+	 * 
+	 * @param	target
+	 * @param	duration
+	 * @param	vars
+	 * @return
+	 */
+    static public function from(target:Dynamic, duration:Float, vars:Dynamic):TweenLite;
 	
-	public function new(target:Dynamic, duration:Float, vars:Dynamic);
+	/**
+	 * 
+	 * @param	target
+	 * @param	duration
+	 * @param	fromVars
+	 * @param	toVars
+	 * @return
+	 */
+    static public function fromTo(target:Dynamic, duration:Float, fromVars:Dynamic, toVars:Dynamic):TweenLite;
 	
-	public static function delayedCall(delay:Float, callback:Dynamic, ?params:Array<Dynamic>, ?scope:Dynamic):TweenLite;
-	public static function from ( target:Dynamic, duration:Float, vars:Dynamic ) : TweenLite;
-	public static function fromTo ( target:Dynamic, duration:Float, fromVars:Dynamic, toVars:Dynamic ) : TweenLite;
-	public static function getTweensOf ( target:Dynamic, onlyActive:Bool ) : Array<Dynamic>;
-	public static function killDelayedCallsTo ( func:Dynamic ) :Dynamic;
-	public static function killTweensOf ( target:Dynamic, ?onlyActive:Bool, ?vars:Dynamic ) :Dynamic;
-	public static function lagSmoothing ( threshold:Float, adjustedLag:Float ) :Dynamic;
-	public static function render ( ) :Dynamic;
-	public static function set ( target:Dynamic, vars:Dynamic ) : TweenLite;
-	public static function to ( target:Dynamic, duration:Float, vars:Dynamic ) : TweenLite;
+	/**
+	 * 
+	 * @param	target
+	 * @return
+	 */
+    public static function getTweensOf(target:Dynamic):Array<Dynamic>;
+	
+	/**
+	 * 
+	 * @return
+	 */
+    override public function invalidate():Dynamic;
+	
+	/**
+	 * 
+	 * @param	func
+	 */
+    static public function killDelayedCallsTo(func:Dynamic):Void;
+	
+	/**
+	 * 
+	 * @param	target
+	 * @param	?vars
+	 */
+    static public function killTweensOf(target:Dynamic, ?vars:Dynamic):Void;
+	
+	/**
+	 * 
+	 * @param	target
+	 * @param	properties
+	 * @return
+	 */
+    static public function set(target:Dynamic, properties:Dynamic):TweenLite;
+	
+	/**
+	 * 
+	 * @param	target
+	 * @param	duration
+	 * @param	properties
+	 * @return
+	 */
+    static public function to(target:Dynamic, duration:Float, properties:Dynamic):TweenLite;
 	
 	
 }

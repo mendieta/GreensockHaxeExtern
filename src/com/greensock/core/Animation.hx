@@ -8,33 +8,143 @@ package com.greensock.core;
 @:native("Animation")
 extern class Animation
 {
-	public var data:Dynamic;
-	public var ticker:Dynamic;
-	public var timeline:SimpleTimeline;
-	public var vars:Dynamic;
+	 public function Animation(duration:Float, ?vars:Dynamic):Void;
 	
-	public function new(duration:Float, ?vars:Dynamic):Void;
+	/**
+	 * 
+	 * @param	value
+	 * @return
+	 */
+    public function delay(value:Float):Dynamic;
 	
-	public function delay(value:Float):Dynamic;
-	public function duration(value:Float):Dynamic;
-	public function eventCallback ( type:String, ?callback:Dynamic, ?params:Array<Dynamic>, ?scope:Dynamic):Dynamic;
-	public function invalidate ( ) :Dynamic;
-	public function isActive ( ) : Bool;
-	public function kill ( ?vars:Dynamic, ?target:Dynamic) :Dynamic;
-	public function pause ( ?atTime:Dynamic, ?suppressEvents:Bool ):Dynamic;
-	public function paused ( value:Bool = true ) :Dynamic;
-	public function play ( ?from:Dynamic, ?suppressEvents:Bool ) :Dynamic;
-	public function progress ( ?value:Float, suppressEvents:Bool ) : Dynamic;
-	public function restart ( ?includeDelay:Bool, ?suppressEvents:Bool ) : Dynamic;
-	public function resume ( ?from:Dynamic, ?suppressEvents:Bool ) : Dynamic;
-	public function reverse ( ?from:Dynamic, suppressEvents:Bool ) : Dynamic;
-	public function reversed ( ?value:Bool ) : Dynamic;
-	public function seek ( time:Dynamic, ?suppressEvents:Bool ) : Dynamic;
-	public function startTime ( value:Float ) : Dynamic;
-	public function time ( ?value:Float, ?suppressEvents:Bool ) : Dynamic;
-	public function timeScale ( ?value:Float ) : Dynamic;
-	public function totalDuration ( ?value:Float ) : Dynamic;
-	public function totalProgress ( ?value:Float, ?suppressEvents:Bool ) : Dynamic;
-	public function totalTime ( ?time:Float, ?suppressEvents:Bool ) : Dynamic;
+	/**
+	 * 
+	 * @param	value
+	 * @return
+	 */
+    public function duration(value:Float):Dynamic;
+	
+	/**
+	 * 
+	 * @param	type
+	 * @param	?__callback
+	 * @param	?params
+	 * @param	?scope
+	 * @return
+	 */
+    public function eventCallback(type:String, ?__callback:Dynamic, ?params:Array<Dynamic>, ?scope:Dynamic):Dynamic;
+	
+	/**
+	 * 
+	 * @return
+	 */
+    public function invalidate():Dynamic;
+	
+	/**
+	 * 
+	 * @param	?vars
+	 * @param	?target
+	 * @return
+	 */
+    public function kill(?vars:Dynamic, ?target:Dynamic):Dynamic;
+	
+	/**
+	 * Pause
+	 * @param	?atTime
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function pause(?atTime:Dynamic, ?suppressEvents:Bool):Dynamic;
+	
+	/**
+	 * Paused
+	 * @param	?value
+	 * @return
+	 */
+    public function paused(suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * Play
+	 * @param	?from
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function play(?from:Dynamic, suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * 
+	 * @param	?includeDelay
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function restart(?includeDelay:Bool, suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * 
+	 * @param	?from
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function resume(?from:Dynamic, suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * 
+	 * @param	?from
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function reverse(?from:Dynamic, suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * 
+	 * @param	?value
+	 * @return
+	 */
+    public function reversed(?value:Bool):Dynamic;
+	
+	/**
+	 * 
+	 * @param	time
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function seek(time:Dynamic, suppressEvents:Bool = true):Dynamic;
+	
+	/**
+	 * 
+	 * @param	value
+	 * @return
+	 */
+    public function startTime(value:Float):Dynamic;
+	
+	/**
+	 * 
+	 * @param	value
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function time(value:Float, ?suppressEvents:Bool):Dynamic;
+	
+	/**
+	 * 
+	 * @param	value
+	 * @return
+	 */
+    public function timeScale(value:Float):Dynamic;
+	
+	/**
+	 * 
+	 * @param	value
+	 * @return
+	 */
+    public function totalDuration(value:Float):Dynamic;
+	
+	/**
+	 * 
+	 * @param	time
+	 * @param	suppressEvents
+	 * @return
+	 */
+    public function totalTime(time:Float, ?suppressEvents:Bool):Dynamic;
 
 }

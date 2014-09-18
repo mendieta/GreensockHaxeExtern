@@ -54,22 +54,40 @@
             ,"activeLine" : 13
         }
         ,{
-             "path" : "haxelib.json"
+             "path" : "src/com/greensock/core/Animation.hx"
             ,"useTabs" : true
             ,"indentSize" : 4
             ,"foldedRegions" : [
 
             ]
-            ,"activeLine" : 1
+            ,"activeLine" : 147
         }
         ,{
-             "path" : "javascript.hxml"
+             "path" : "src/com/greensock/TimelineLite.hx"
             ,"useTabs" : true
             ,"indentSize" : 4
             ,"foldedRegions" : [
 
             ]
-            ,"activeLine" : 7
+            ,"activeLine" : 25
+        }
+        ,{
+             "path" : "src/com/greensock/TimelineMax.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 35
+        }
+        ,{
+             "path" : "src/com/greensock/TweenLite.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 36
         }
         ,{
              "path" : "src/com/greensock/TweenMax.hx"
@@ -78,10 +96,181 @@
             ,"foldedRegions" : [
 
             ]
+            ,"activeLine" : 206
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Ease.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
             ,"activeLine" : 0
         }
+        ,{
+             "path" : "src/com/greensock/easing/Back.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 0
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Bounce.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 31
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Circ.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 12
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Cubic.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 13
+        }
+        ,{
+             "path" : "src/com/greensock/easing/EaseLookup.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 20
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Elastic.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 14
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Expo.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 19
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Power0.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 16
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Power1.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 11
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Power2.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 18
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Power3.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 17
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Power4.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 14
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Quad.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 18
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Quart.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 21
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Quint.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 16
+        }
+        ,{
+             "path" : "src/com/greensock/easing/Sine.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 15
+        }
+        ,{
+             "path" : "src/com/greensock/easing/SlowMo.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 17
+        }
+        ,{
+             "path" : "src/com/greensock/easing/SteppedEase.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 16
+        }
     ]
-    ,"activeFile" : "src/com/greensock/TweenMax.hx"
+    ,"activeFile" : "src/com/greensock/easing/SteppedEase.hx"
     ,"openFLTarget" : null
     ,"openFLBuildMode" : "Debug"
     ,"runActionType" : null
