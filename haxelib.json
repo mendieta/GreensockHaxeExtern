@@ -11,7 +11,5 @@
       "Initial release, everything is working correctly",
   "contributors": ["Mendieta"],
   "dependencies": {
-    "tink_macros": "",
-    "nme": "3.5.5"
   }
 }
