@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"GreensockHaxeExtern.js",
+"sourceRoot":"file://",
+"sources":["/Users/ricardomendieta/Documents/FOO/2014/FOO/HAXE/EXTERNS/GreensockHaxeExtern/src/com/greensock/Main.hx"],
+"sourcesContent":["package com.greensock;\n\n/**\n * @author Foo (Studio)\n\n * http://www.foostudio.mx\n */\nclass Main\n{\n    static public function main()\n    {\n        trace(\"Hello World\");\n\t}\n}"],
+"names":[],
+"mappings":";;;;0BASiB,fAEV;YAAM;;;;;"
+}

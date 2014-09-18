@@ -1,0 +1,67 @@
+{
+     "type" : 0
+    ,"target" : 1
+    ,"name" : "GreensockHaxeExtern"
+    ,"main" : null
+    ,"projectPackage" : "com.greensock"
+    ,"company" : "Foo (Studio)"
+    ,"license" : ""
+    ,"url" : "http://www.foostudio.mx"
+    ,"targetData" : [
+         {
+             "pathToHxml" : "flash.hxml"
+            ,"runActionType" : 1
+            ,"runActionText" : "bin/GreensockHaxeExtern.swf"
+        }
+        ,{
+             "pathToHxml" : "javascript.hxml"
+            ,"runActionType" : 1
+            ,"runActionText" : "bin/index.html"
+        }
+        ,{
+             "pathToHxml" : "neko.hxml"
+            ,"runActionType" : 2
+            ,"runActionText" : "neko bin/GreensockHaxeExtern.n"
+        }
+        ,{
+             "pathToHxml" : "php.hxml"
+        }
+        ,{
+             "pathToHxml" : "cpp.hxml"
+            ,"runActionType" : 2
+            ,"runActionText" : "bin/Main-debug"
+        }
+        ,{
+             "pathToHxml" : "java.hxml"
+        }
+        ,{
+             "pathToHxml" : "csharp.hxml"
+        }
+        ,{
+             "pathToHxml" : "python.hxml"
+            ,"runActionType" : 2
+            ,"runActionText" : "python bin/GreensockHaxeExtern.py"
+        }
+    ]
+    ,"files" : [
+         {
+             "path" : "src/com/greensock/Main.hx"
+            ,"useTabs" : true
+            ,"indentSize" : 4
+            ,"foldedRegions" : [
+
+            ]
+            ,"activeLine" : 0
+        }
+    ]
+    ,"activeFile" : "src/com/greensock/Main.hx"
+    ,"openFLTarget" : null
+    ,"openFLBuildMode" : "Debug"
+    ,"runActionType" : null
+    ,"runActionText" : null
+    ,"buildActionCommand" : null
+    ,"hiddenItems" : [
+
+    ]
+    ,"showHiddenItems" : false
+}
