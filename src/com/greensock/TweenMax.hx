@@ -16,7 +16,7 @@ extern class TweenMax extends TweenLite
 	 * @param	target
 	 * @param	duration
 	 * @param	properties
-	 * @return
+// 	 * @return
 	 */
 	public function new(target: Dynamic, duration: Float, properties: Dynamic) : Void; 
 		

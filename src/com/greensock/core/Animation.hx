@@ -88,7 +88,7 @@ extern class Animation
     public function resume(?from:Dynamic, suppressEvents:Bool = true):Dynamic;
 	
 	/**
-	 * 
+// 	 * 
 	 * @param	?from
 	 * @param	suppressEvents
 	 * @return

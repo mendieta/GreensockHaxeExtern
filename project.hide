@@ -54,78 +54,6 @@
             ,"activeLine" : 13
         }
         ,{
-             "path" : "src/com/greensock/core/Animation.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 147
-        }
-        ,{
-             "path" : "src/com/greensock/TimelineLite.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 25
-        }
-        ,{
-             "path" : "src/com/greensock/TimelineMax.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 35
-        }
-        ,{
-             "path" : "src/com/greensock/TweenLite.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 36
-        }
-        ,{
-             "path" : "src/com/greensock/TweenMax.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 206
-        }
-        ,{
-             "path" : "src/com/greensock/easing/Ease.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 0
-        }
-        ,{
-             "path" : "src/com/greensock/easing/Back.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 0
-        }
-        ,{
-             "path" : "src/com/greensock/easing/Bounce.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 31
-        }
-        ,{
              "path" : "src/com/greensock/easing/Circ.hx"
             ,"useTabs" : true
             ,"indentSize" : 4
@@ -135,24 +63,6 @@
             ,"activeLine" : 12
         }
         ,{
-             "path" : "src/com/greensock/easing/Cubic.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 13
-        }
-        ,{
-             "path" : "src/com/greensock/easing/EaseLookup.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 20
-        }
-        ,{
              "path" : "src/com/greensock/easing/Elastic.hx"
             ,"useTabs" : true
             ,"indentSize" : 4
@@ -160,15 +70,6 @@
 
             ]
             ,"activeLine" : 14
-        }
-        ,{
-             "path" : "src/com/greensock/easing/Expo.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 19
         }
         ,{
              "path" : "src/com/greensock/easing/Power0.hx"
@@ -252,15 +153,6 @@
             ,"activeLine" : 15
         }
         ,{
-             "path" : "src/com/greensock/easing/SlowMo.hx"
-            ,"useTabs" : true
-            ,"indentSize" : 4
-            ,"foldedRegions" : [
-
-            ]
-            ,"activeLine" : 17
-        }
-        ,{
              "path" : "src/com/greensock/easing/SteppedEase.hx"
             ,"useTabs" : true
             ,"indentSize" : 4
@@ -270,7 +162,7 @@
             ,"activeLine" : 16
         }
     ]
-    ,"activeFile" : "src/com/greensock/easing/SteppedEase.hx"
+    ,"activeFile" : "src/com/greensock/easing/Sine.hx"
     ,"openFLTarget" : null
     ,"openFLBuildMode" : "Debug"
     ,"runActionType" : null
